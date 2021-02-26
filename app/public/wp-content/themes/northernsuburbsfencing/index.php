@@ -1,9 +1,7 @@
 <?php
 get_header();
 ?>
-
-<main id="main" class="site-main" role="main">
-    <section id="page-<?php the_ID(); ?>" 
+<main class="site-main" role="main" id="page-<?php the_ID(); ?>" 
         <?php post_class(array('wwd-content-page', $post->post_name)); ?>>
 <?php
 	if (have_posts()):
@@ -11,7 +9,6 @@ get_header();
             if (is_front_page()):
                 get_template_part('template-parts/content', 'page-header');
                 get_template_part('template-parts/content-home');
-                get_template_part('template-parts/content-home-hero');
             else:
                 get_template_part('template-parts/content', 'page-header');
                 get_template_part('template-parts/content', 'page');
@@ -19,7 +16,6 @@ get_header();
         endwhile;
     endif;
 ?>
-    </section>
 </main>
 <?php
     get_footer();

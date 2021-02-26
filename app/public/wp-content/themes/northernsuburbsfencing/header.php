@@ -20,6 +20,7 @@
         <div class="banner">
             $15 FLAT RATE SHIPPING AUSTRALIA WIDE!
         </div>
+<?php if (class_exists('WooCommerce')): ?>
         <div class="cart <?php echo WC()->cart->get_cart_contents_count() ? 'has-cart-items' : ''; ?>">
 <?php
     if (is_user_logged_in()):
@@ -39,6 +40,7 @@
     endif;
 ?>            
         </div>
+<?php   endif; // WC exists  ?>
     </div>
     <input type="checkbox" id="menu_is_active">
     <ul id="menu-primary">

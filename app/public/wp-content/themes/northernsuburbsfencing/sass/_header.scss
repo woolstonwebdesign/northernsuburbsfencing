@@ -1,20 +1,15 @@
 header.page-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: $header-height;
-    z-index: 99;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // width: 100%;
+    // height: $header-height;
+    // z-index: 99;
 
     /*  icons   */
     .social-icon i {
         font-size: 2em;
-        color: cv(mauve);
         transition: color 0.3s ease-in-out;
-
-        &:hover {
-            color: cv(mauve, dark);
-        }
     }
 
     .nav-search-icon {
@@ -31,17 +26,10 @@ header.page-header {
     }
 }
 
-$logo-width: 210px;
 .custom-logo {
     padding: 2px 0 0 0 !important;
-    position: relative;
 
     img, a {
-        width: $logo-width;
-
-        @include media-breakpoint-down(md) {
-            width: 150px;
-        }    
 
     }
 
@@ -55,47 +43,10 @@ $logo-width: 210px;
     }
 }
 
-.page-home .custom-logo img {
-    position: absolute;
-    top: 20vh;
-    width: $logo-width * 2;
-    height: auto;
-    transition: all 1s ease-in-out;
-    margin-left: calc(5vw - 10px);
-    z-index: 20;
-
-    @include media-breakpoint-down(lg) {
-        top: 15vh;
-        width: 250px;
-        margin-left: calc(5vw - 5px);
-    }
-
-    @include media-breakpoint-down(md) {
-        position: relative;
-        top: unset;
-        width: 160px;
-        height: unset;
-    }
-}
-
-.page-home .docked .custom-logo img {
-    top: -37px;
-    width: 210px;
-    margin-left: 20px;
-    height: auto;
-
-    @include media-breakpoint-down(md) {
-        top: unset;
-        width: 160px;
-    }
-}
-
 .top-notification-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: cv(cyan);
-    color: #fff;
     padding: 5px 10px 5px;
     font-size: 0.7em;
     text-transform: uppercase;
@@ -156,15 +107,10 @@ $logo-width: 210px;
     transition: box-shadow 1s ease-in-out;
     height: 80px;
 
-    &.docked {
-        box-shadow: -1px 1px 10px 0px #eee;
-    }
-
     > li {
         padding: 10px;
 
         a {
-            color: cv(blue);
             font-family: $nav-font;
             text-transform: uppercase;
             text-decoration: none;
@@ -209,7 +155,7 @@ $logo-width: 210px;
             order: 0;
 
             label i {
-                color: cv(cyan);
+
             }
         }
 
@@ -228,7 +174,6 @@ $logo-width: 210px;
             align-items: center;
             
             a {
-                color: cv(cyan);
                 font-size: 1.2em;
 
                 i {
@@ -420,7 +365,6 @@ ul.social-links {
             width: 100vw;
             height: 100vh;
             z-index: 1;
-            background-color: cv(purple, dark);
         }
 
         & ~ ul#menu-primary li.nav-menu-items,

@@ -50,6 +50,8 @@ a {
 
 /*  Images  */
 img {
+    max-width: 100%;
+    height: auto;
 
     &.alignright {
         float: right;
@@ -64,13 +66,8 @@ img {
         margin: 0 auto;
     }
 }
-
-.aligncenter {
-    display: block;
-    margin: 0 auto;
-}
-
 /*  end Images  */
+
 .gallery-thumbnail-grid {
     display: flex;
     flex-wrap: wrap;
@@ -124,11 +121,6 @@ img {
             height: auto;
         }
     }
-}
-
-.gutter {
-    width: 80vw;
-    margin: 0 auto 0 auto;
 }
 
 button, input[type=button], input[type=submit] {

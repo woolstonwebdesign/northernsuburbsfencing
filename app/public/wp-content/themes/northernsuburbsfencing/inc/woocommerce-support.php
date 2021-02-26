@@ -34,38 +34,10 @@ add_filter('woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_
 
 function woocommerce_header_add_to_cart_fragment($fragments) {
 	global $woocommerce;
-
 	ob_start();
-
 	?>
 	<a class="md-cart-total" href="<?php echo wc_get_cart_url();?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
 	<?php
 	$fragments['a.md-cart-total'] = ob_get_clean();
 	return $fragments;
 }
-
-function quantity_description() {
-    echo '<label class="quantity-description"><i class="las la-info-circle"></i><span>Quantities are in 0.5m increments</span></label>';
-}
-add_action('woocommerce_after_add_to_cart_button', 'quantity_description');
-
-function jk_woocommerce_quantity_input_args($args, $product) {
-	if (is_singular('product')) {
-        $args['min_value'] 	= 1;   	// Minimum value
-        $args['input_value'] = 1;   	// Default value
-        $args['step'] 	= 1;	// Starting value (we only want to affect product pages, not cart)
-	}
-	// $args['max_value'] 	= 80; 	// Maximum value
-	// $args['min_value'] 	= 2;   	// Minimum value
-	// $args['step'] 		= 2;    // Quantity steps
-	return $args;
-}
-add_filter('woocommerce_quantity_input_args', 'jk_woocommerce_quantity_input_args', 10, 2); // Simple products
-
-function jk_woocommerce_available_variation($args) {
-    $args['min_value'] 	= 1;   	// Minimum value
-    $args['input_value'] = 1;   	// Default value
-    $args['step'] 	= 1;	// Starting value (we only want to affect product pages, not cart)
-    return $args;
-}
-add_filter('woocommerce_available_variation', 'jk_woocommerce_available_variation'); // Variations
