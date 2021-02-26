@@ -46,7 +46,7 @@ function wwd_get_embedded_media( $type = array() ){
 }
 
 //  template shortcode
-function md_template_shortcode($attrs) {
+function wwd_template_shortcode($attrs) {
 	ob_start();
 	if (isset($attrs['template_name'])) {
 		get_template_part('template-parts/' . $attrs['template_name']);
