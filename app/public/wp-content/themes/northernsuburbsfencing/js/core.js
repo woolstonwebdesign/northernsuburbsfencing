@@ -1,8 +1,8 @@
 
 $(function () {
     
-    var $details = $("#menu-primary"),
-        logoTippingPoint = 30;
+    var $body = $("body"),
+        logoTippingPoint = 100;
 
     $(window).on("scroll", function() {
         setScrollPosition();
@@ -10,9 +10,9 @@ $(function () {
 
     function setScrollPosition() {
         if ($(document).scrollTop() > logoTippingPoint) {
-            $details.addClass("docked");
+            $body.addClass("scrolling");
         } else {
-            $details.removeClass("docked");
+            $body.removeClass("scrolling");
         }
     }
 
@@ -45,16 +45,19 @@ var scroll = window.requestAnimationFrame ||
              // IE Fallback
              function(callback){ window.setTimeout(callback, 1000/60)};
 
-function loopScissors() {
-    var scissors = $(".md-floating-scissors");
-    if (isElementInViewport(scissors)) {
-        scissors.addClass('is-visible');
-    } else {
-        scissors.removeClass('is-visible');
+function animateElements() {
+    //  example
+    var $scissors = $(".md-floating-scissors");
+    if ($scissors.length) {
+        if (isElementInViewport($scissors)) {
+        $scissors.addClass('is-visible');
+        } else {
+            $scissors.removeClass('is-visible');
+        }
+        scroll(animateElements);
     }
-    scroll(loopScissors);
 }
-loopScissors();
+animateElements();
 
 // Helper function from: http://stackoverflow.com/a/7557433/274826
 function isElementInViewport(el) {

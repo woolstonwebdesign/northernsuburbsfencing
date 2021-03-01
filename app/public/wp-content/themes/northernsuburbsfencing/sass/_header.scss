@@ -1,10 +1,10 @@
 header.page-header {
-    // position: fixed;
-    // top: 0;
-    // left: 0;
-    // width: 100%;
-    // height: $header-height;
-    // z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: $header-height;
+    z-index: 99;
 
     /*  icons   */
     .social-icon i {
@@ -34,7 +34,8 @@ header.page-header {
     }
 
     img {
-        height: auto;
+        width: auto;
+        height: 95px;
         margin-left: 20px;
     }
 

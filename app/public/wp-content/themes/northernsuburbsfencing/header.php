@@ -80,10 +80,12 @@
 ?>      
         </ul>
     </li>
+<?php if (class_exists('WooCommerce')): ?>  ?>
     <li class="nav-basket">
         <a href="<?php echo wc_get_cart_url(); ?>"><i class="las la-shopping-basket"></i></a>
         <a class="md-cart-total" href="<?php echo wc_get_cart_url(); ?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
     </li>
+<?php endif;    ?>
     <li class="social-navs">
 <?php
     echo do_shortcode('[yoast_social wrapinlist=true usefonticons=true]');
