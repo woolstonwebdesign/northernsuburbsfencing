@@ -1,11 +1,7 @@
 header.page-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: $header-height;
-    z-index: 99;
-
+    padding: 10px 5vw;
+    background-color: #fff;
+    
     /*  icons   */
     .social-icon i {
         font-size: 2em;

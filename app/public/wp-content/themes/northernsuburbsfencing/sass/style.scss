@@ -24,5 +24,19 @@ body {
     font-family: $body-font;
     color: $base-font-color;
     font-size: $base-font-size;
-    background-color: cv(deepgreen);
+    background-color: cv(powder-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+    color: $heading-color;
+}
+
+.md-btn {
+    @include md-btn();
+
+}
+
+a.md-btn, a.md-btn:link, a.md-btn:active, a.md-btn:visited {
+    text-decoration: none !important;
 }

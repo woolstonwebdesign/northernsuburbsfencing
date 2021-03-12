@@ -85,27 +85,18 @@ $variations: (
 @mixin md-btn {
     border-radius: 0 !important;
     padding: 8px 50px !important;
-    @include button-variant(#fff, cv(purple, dark), $hover-background: cv(purple, light));
-    color: cv(purple, dark) !important;
-    border-color: cv(purple, dark) !important;
+    @extend .btn;
+    @include button-variant(cv(dark-orange, dark), cv(dark-orange, dark), $hover-background: cv(dark-orange, light));
+    color: #fff !important;
+    border-color: cv(dark-orange, dark) !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
-    background-color: transparent !important;
-    @extend .btn;
+    //background-color: transparent !important;
     border-width: 2px !important;
     font-size: 14px !important;
     font-weight: 500 !important;
 
-    &:focus {
-        color: #fff !important;
-        background-color: cv(purple, light) !important;
-        border-color: cv(purple, light) !important;
-    }
-
     &:hover {
-        color: #fff !important;
-        background-color: cv(purple, dark) !important;
-        border-color: cv(purple, dark) !important;
-        text-decoration: none !important;
+        border-color: cv(dark-orange, light) !important;
     }
 }

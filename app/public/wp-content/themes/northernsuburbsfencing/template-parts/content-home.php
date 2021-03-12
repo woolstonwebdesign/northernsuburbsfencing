@@ -3,11 +3,13 @@
 @package: wwd blankslate
 */
 // var_dump($post);
-$attachment = wp_get_attachment_image_src(get_the_ID(), 'full')[0];
+$attachment = get_the_post_thumbnail_url(get_the_ID(), 'full');
 ?>
-<section id="page-<?php the_ID(); ?>" 
+<main class="site-main" role="main">
+    <section id="page-<?php the_ID(); ?>" 
         <?php post_class(array('wwd-content-page', $post->post_name)); ?>>
 <?php 
     the_content(); 
 ?>
-</section>
+    </section>
+</main>

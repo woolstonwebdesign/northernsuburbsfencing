@@ -16,9 +16,9 @@
 </head>
 <body <?php body_class(); ?>>
 <header class="page-header">
-    <div class="top-notification-bar">
+    <div class="top-notification-bar d-none">
         <div class="banner">
-            $15 FLAT RATE SHIPPING AUSTRALIA WIDE!
+            &nbsp;
         </div>
 <?php if (class_exists('WooCommerce')): ?>
         <div class="cart <?php echo WC()->cart->get_cart_contents_count() ? 'has-cart-items' : ''; ?>">
@@ -50,8 +50,7 @@
     $image = wp_get_attachment_image_src( $custom_logo_id , 'full' );
 ?>
         <a href="/">
-            <img src="<?php echo $image[0]; ?>" 
-                class="animate__animated animate__fadeIn" alt="" />
+            <img src="<?php echo $image[0]; ?>" alt="" />
         </a>
     </li>
     <li class="nav-menu-items">
@@ -93,6 +92,9 @@
     </li>
     <li class="nav-shop-link call-to-action">
         <a class="md-btn" href="/shop">Shop</a>
+    </li>
+    <li class="nav-shop-link call-to-action">
+        <a class="md-btn" href="/shop">Request A Quote</a>
     </li>
     <li class="toggle">
         <label for="menu_is_active" class="toggle-link">

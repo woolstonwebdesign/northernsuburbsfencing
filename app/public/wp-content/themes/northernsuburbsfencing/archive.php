@@ -10,7 +10,7 @@ get_header();
 ?>
 
 <main id="main" class="site-main" role="main">
-    <section <?php post_class(array('gutter')); ?>>
+    <section <?php post_class(); ?>>
         <h1><?php echo post_type_archive_title(); ?></h1>
 <?php
     if (have_posts()):
