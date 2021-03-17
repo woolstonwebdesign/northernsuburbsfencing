@@ -20,14 +20,14 @@ get_header();
             $template = get_post_type() . (get_post_format() ? '-' . get_post_format() : '');
             switch (get_post_type()) {
                 // case 'product':
-                //     echo do_shortcode('[md-template template_name="content-product-thumb"]');
+                //     echo do_shortcode('[wwd-template template_name="content-product-thumb"]');
                 //     break;
                 default:
-                    echo do_shortcode('[md-template template_name="content-search-result"]');
+                    echo do_shortcode('[wwd-template template_name="content-search-result"]');
                     break;
             }
             //var_dump($template);
-            // echo do_shortcode('[md-template template_name="content-product-thumb"]');
+            // echo do_shortcode('[wwd-template template_name="content-product-thumb"]');
             // get_template_part('template-parts/content-search', get_post_type());
         endwhile;
 ?>

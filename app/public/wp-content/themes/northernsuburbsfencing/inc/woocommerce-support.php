@@ -36,8 +36,8 @@ function woocommerce_header_add_to_cart_fragment($fragments) {
 	global $woocommerce;
 	ob_start();
 	?>
-	<a class="md-cart-total" href="<?php echo wc_get_cart_url();?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
+	<a class="wwd-cart-total" href="<?php echo wc_get_cart_url();?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
 	<?php
-	$fragments['a.md-cart-total'] = ob_get_clean();
+	$fragments['a.wwd-cart-total'] = ob_get_clean();
 	return $fragments;
 }

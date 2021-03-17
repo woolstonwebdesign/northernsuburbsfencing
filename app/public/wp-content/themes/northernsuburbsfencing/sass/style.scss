@@ -24,7 +24,21 @@ body {
     font-family: $body-font;
     color: $base-font-color;
     font-size: $base-font-size;
-    background-color: cv(powder-blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    > header {
+        flex: 0 0 10vh;
+    }
+
+    > main {
+        flex-grow: 1;
+    }
+
+    > footer {
+        flex: 0 0 20vh;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -34,9 +48,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .md-btn {
     @include md-btn();
-
 }
 
 a.md-btn, a.md-btn:link, a.md-btn:active, a.md-btn:visited {
     text-decoration: none !important;
+}
+
+input, select {
+    font-family: $body-font;
+    border-radius: 0 !important;
 }

@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
+		<loc>https://northernsuburbsfencing.local/request-a-quote/</loc>
+		<lastmod>2021-03-17</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://northernsuburbsfencing.local/powdercoating/</loc>
+		<lastmod>2021-03-17</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
 		<loc>https://northernsuburbsfencing.local/</loc>
-		<lastmod>2021-03-12</lastmod>
+		<lastmod>2021-03-17</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://northernsuburbsfencing.local/cart/</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://northernsuburbsfencing.local/checkout/</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://northernsuburbsfencing.local/my-account/</loc>
+		<lastmod>2021-03-13</lastmod>
+		<changefreq>monthly</changefreq>
+	</url>
+	<url>
+		<loc>https://northernsuburbsfencing.local/shop/</loc>
+		<lastmod>2021-03-13</lastmod>
 		<changefreq>monthly</changefreq>
 	</url>
 	<url>

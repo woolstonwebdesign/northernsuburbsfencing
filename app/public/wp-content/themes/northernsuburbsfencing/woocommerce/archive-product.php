@@ -63,7 +63,7 @@ $products = new WP_Query(array(
 ));
 if ($products->have_posts()):
     while($products->have_posts()): $products->the_post();
-        echo do_shortcode('[md-template template_name="content-product-thumb"]');
+        echo do_shortcode('[wwd-template template_name="content-product-thumb"]');
     endwhile;
 endif;
 wp_reset_query();

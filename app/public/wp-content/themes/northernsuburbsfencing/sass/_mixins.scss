@@ -86,9 +86,9 @@ $variations: (
     border-radius: 0 !important;
     padding: 8px 50px !important;
     @extend .btn;
-    @include button-variant(cv(dark-orange, dark), cv(dark-orange, dark), $hover-background: cv(dark-orange, light));
+    @include button-variant(cv(fuchsia, light), cv(fuchsia, light), $hover-background: cv(fuchsia, dark));
     color: #fff !important;
-    border-color: cv(dark-orange, dark) !important;
+    border-color: cv(fuchsia, light) !important;
     text-transform: uppercase !important;
     text-decoration: none !important;
     //background-color: transparent !important;
@@ -97,6 +97,6 @@ $variations: (
     font-weight: 500 !important;
 
     &:hover {
-        border-color: cv(dark-orange, light) !important;
+        border-color: cv(fuchsia, dark) !important;
     }
 }

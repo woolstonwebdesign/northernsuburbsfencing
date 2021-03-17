@@ -79,10 +79,10 @@
 ?>      
         </ul>
     </li>
-<?php if (class_exists('WooCommerce')): ?>  ?>
+<?php if (class_exists('WooCommerce')): ?>
     <li class="nav-basket">
         <a href="<?php echo wc_get_cart_url(); ?>"><i class="las la-shopping-basket"></i></a>
-        <a class="md-cart-total" href="<?php echo wc_get_cart_url(); ?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
+        <a class="wwd-cart-total" href="<?php echo wc_get_cart_url(); ?>">(<?php echo WC()->cart->get_cart_contents_count(); ?>)</a>
     </li>
 <?php endif;    ?>
     <li class="social-navs">
@@ -91,10 +91,10 @@
 ?>
     </li>
     <li class="nav-shop-link call-to-action">
-        <a class="md-btn" href="/shop">Shop</a>
+        <a class="md-btn d-none" href="/shop">Shop</a>
     </li>
     <li class="nav-shop-link call-to-action">
-        <a class="md-btn" href="/shop">Request A Quote</a>
+        <a class="md-btn" href="/request-a-quote/">Request A Quote</a>
     </li>
     <li class="toggle">
         <label for="menu_is_active" class="toggle-link">
