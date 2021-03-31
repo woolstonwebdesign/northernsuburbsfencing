@@ -1,0 +1,27 @@
+.page-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 75px 5vw 0 5vw;
+    background: linear-gradient(0deg, cv(powder-blue, dark), cv(powder-blue, light) 70%, #fff);
+
+    .footer-references {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0 10px 0;
+
+        @include media-breakpoint-down(xs) {
+            flex-direction: column;
+        }
+
+        > div {
+            color: transparentize(cv(black), 0.3);
+            font-size: 0.8em;
+
+            a {
+                color: transparentize(cv(black), 0.3);                
+            }
+        }
+    }
+}

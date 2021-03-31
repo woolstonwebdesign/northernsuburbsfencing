@@ -1,0 +1,85 @@
+main.site-main {
+    background-color: #fff;
+    padding-bottom: 5vh;
+}
+
+.home main {
+    padding-top: 0;
+}
+
+.home {
+
+    .home-columns {
+        margin: 10vh auto;
+
+        .wp-block-columns {
+            width: 80vw;
+            margin: 0 auto;
+
+            .wp-block-column {
+                text-align: center;
+                background: linear-gradient(180deg, cv(neon-blue, light), #fff);
+                padding-top: 5vh;
+                padding-bottom: 7vh;
+
+                &:not(:first-child) {
+                    margin-left: 5vw;
+                }
+
+                &:first-child {
+                    background: linear-gradient(180deg, cv(powder-blue, dark), #fff);
+                }
+
+                h1, h2, h3, h4, h5 {
+                    color: rgba(255, 255, 255, 0.9);
+                    font-size: 1.5em;
+                }
+
+                p {
+                    color: rgba(8, 7, 8, 0.7);
+                    text-align: justify;
+                    line-height: 1.5em;
+                    font-size: 0.9em;
+                    padding: 5vh 5vw;
+                }
+            }
+        }
+    }
+
+    .home-hero {
+
+        .wp-block-cover__inner-container {
+            width: 60vw;
+            margin: 0 auto;
+
+            h2 {
+                text-align: center;
+                margin-bottom: 2em;
+            }
+
+            p {
+                text-align: center;
+                line-height: 1.5em;
+            }
+        }
+
+    }
+}
+
+main > section.content-page {
+    width: 70vw;
+    margin: 0 auto;
+    padding-top: 5vh;
+
+    > .entry-header {
+        margin-bottom: 3vh;
+    }
+
+    > .entry-body {
+
+        p {
+            line-height: 1.5em;
+            margin-bottom: 1.5em;
+        }
+    }
+}

@@ -1,0 +1,60 @@
+/*
+@package: wwd blankslate
+*/
+@import "_variables";
+@import "vendor/_bootstrap";
+@import "vendor/_animate";
+@import "_mixins";
+@import "_woocommerce";
+@import "_layout";
+@import "_core";
+@import "_carousel";
+@import "_header";
+@import "_sidebar";
+@import "_page";
+@import "_footer";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $body-font;
+    color: $base-font-color;
+    font-size: $base-font-size;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    > header {
+        flex: 0 0 10vh;
+    }
+
+    > main {
+        flex-grow: 1;
+    }
+
+    > footer {
+        flex: 0 0 20vh;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+    color: $heading-color;
+}
+
+.md-btn {
+    @include md-btn();
+}
+
+a.md-btn, a.md-btn:link, a.md-btn:active, a.md-btn:visited {
+    text-decoration: none !important;
+}
+
+input, select {
+    font-family: $body-font;
+    border-radius: 0 !important;
+}
