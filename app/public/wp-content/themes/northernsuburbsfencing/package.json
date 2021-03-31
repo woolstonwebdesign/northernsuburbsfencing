@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/woolstonwebdesign/wwd-blankslate#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.6.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-livereload": "^4.0.1",
