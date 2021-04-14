@@ -1,0 +1,393 @@
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_cron_conditionally_prevent_sslverify' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 294
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:579
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP  12. _wp_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:29:17 UTC] PHP  13. spawn_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:996
+[31-Mar-2021 14:29:17 UTC] PHP  14. apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:910
+[31-Mar-2021 14:29:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:212
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_cron_conditionally_prevent_sslverify' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 294
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:579
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP  12. _wp_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:29:17 UTC] PHP  13. spawn_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:996
+[31-Mar-2021 14:29:17 UTC] PHP  14. apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:910
+[31-Mar-2021 14:29:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:212
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_cron_conditionally_prevent_sslverify' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 294
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:579
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:17 UTC] PHP  12. _wp_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:29:17 UTC] PHP  13. spawn_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:996
+[31-Mar-2021 14:29:17 UTC] PHP  14. apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:910
+[31-Mar-2021 14:29:17 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:212
+[31-Mar-2021 14:29:17 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:17 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:17 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:17 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:17 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:17 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:17 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:17 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:17 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:17 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:17 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:17 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:17 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:21 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:21 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:21 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:21 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:21 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:21 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:21 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:21 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:21 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:21 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:21 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:21 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:21 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:21 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:21 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[31-Mar-2021 14:29:21 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[31-Mar-2021 14:29:21 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[31-Mar-2021 14:29:21 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[31-Mar-2021 14:29:21 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[31-Mar-2021 14:29:21 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[31-Mar-2021 14:29:21 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[31-Mar-2021 14:29:21 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[31-Mar-2021 14:29:21 UTC] PHP   9. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:21 UTC] PHP  10. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:21 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:23 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:23 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:23 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:29:23 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:29:23 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:29:23 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:23 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:23 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:23 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:23 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:24 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:24 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:24 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:0
+[31-Mar-2021 14:29:24 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:22
+[31-Mar-2021 14:29:24 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:24 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:24 UTC] PHP   5. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:24 UTC] PHP   6. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:24 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:40 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:40 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:40 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:29:40 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:29:40 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:29:40 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:40 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:40 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:40 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:40 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:41 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:41 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:41 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:0
+[31-Mar-2021 14:29:41 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:22
+[31-Mar-2021 14:29:41 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:41 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:41 UTC] PHP   5. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:41 UTC] PHP   6. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:41 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:45 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:45 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:45 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:0
+[31-Mar-2021 14:29:45 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:10
+[31-Mar-2021 14:29:45 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:29:45 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:45 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:45 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:45 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:45 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:0
+[31-Mar-2021 14:29:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:10
+[31-Mar-2021 14:29:48 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:29:48 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:48 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:48 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:29:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:29:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:29:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:0
+[31-Mar-2021 14:29:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\options-permalink.php:10
+[31-Mar-2021 14:29:48 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:29:48 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:29:48 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:29:48 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:29:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:29:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:30:48 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:30:48 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:30:48 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:30:48 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:30:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:30:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_cron_conditionally_prevent_sslverify' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 294
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:30:48 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:30:48 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:30:48 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:30:48 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:579
+[31-Mar-2021 14:30:48 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:30:48 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:30:48 UTC] PHP   9. _wp_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:30:48 UTC] PHP  10. spawn_cron() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:996
+[31-Mar-2021 14:30:48 UTC] PHP  11. apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\cron.php:910
+[31-Mar-2021 14:30:48 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:212
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php on line 6362
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:30:48 UTC] PHP   3. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:175
+[31-Mar-2021 14:30:48 UTC] PHP   4. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:30:48 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:30:48 UTC] PHP   6. send_frame_options_header() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:290
+[31-Mar-2021 14:30:48 UTC] PHP   7. header() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php:6362
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\misc.php on line 1310
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:30:48 UTC] PHP   3. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:175
+[31-Mar-2021 14:30:48 UTC] PHP   4. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:30:48 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:30:48 UTC] PHP   6. wp_admin_headers() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:30:48 UTC] PHP   7. header() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\misc.php:1310
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-header.php on line 9
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:115
+[31-Mar-2021 14:30:48 UTC] PHP   3. header() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-header.php:9
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\option.php on line 1051
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:115
+[31-Mar-2021 14:30:48 UTC] PHP   3. wp_user_settings() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-header.php:70
+[31-Mar-2021 14:30:48 UTC] PHP   4. setcookie() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\option.php:1051
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\option.php on line 1052
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:115
+[31-Mar-2021 14:30:48 UTC] PHP   3. wp_user_settings() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-header.php:70
+[31-Mar-2021 14:30:48 UTC] PHP   4. setcookie() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\option.php:1052
+[31-Mar-2021 14:30:48 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:30:48 UTC] PHP Stack trace:
+[31-Mar-2021 14:30:48 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:0
+[31-Mar-2021 14:30:48 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin-ajax.php:22
+[31-Mar-2021 14:30:48 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:30:48 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:30:48 UTC] PHP   5. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:30:48 UTC] PHP   6. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:30:48 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:31:20 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:31:20 UTC] PHP Stack trace:
+[31-Mar-2021 14:31:20 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\about.php:0
+[31-Mar-2021 14:31:20 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\about.php:10
+[31-Mar-2021 14:31:20 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:31:20 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:31:20 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:31:20 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:31:20 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:31:20 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:31:27 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:31:27 UTC] PHP Stack trace:
+[31-Mar-2021 14:31:27 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:0
+[31-Mar-2021 14:31:27 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:10
+[31-Mar-2021 14:31:27 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:31:27 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:31:27 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:31:27 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:31:27 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:31:27 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:31:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'wp_schedule_https_detection' not found or invalid function name in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php on line 292
+[31-Mar-2021 14:31:37 UTC] PHP Stack trace:
+[31-Mar-2021 14:31:37 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:0
+[31-Mar-2021 14:31:37 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:10
+[31-Mar-2021 14:31:37 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:31:37 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:31:37 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:31:37 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:557
+[31-Mar-2021 14:31:37 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:31:37 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:32:41 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\update.php on line 143
+[31-Mar-2021 14:32:41 UTC] PHP Stack trace:
+[31-Mar-2021 14:32:41 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:0
+[31-Mar-2021 14:32:41 UTC] PHP   2. do_core_upgrade() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:1070
+[31-Mar-2021 14:32:41 UTC] PHP   3. Core_Upgrader->upgrade() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\update-core.php:841
+[31-Mar-2021 14:32:41 UTC] PHP   4. update_core() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\class-core-upgrader.php:172
+[31-Mar-2021 14:32:41 UTC] PHP   5. get_core_checksums() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\update-core.php:1059
+[31-Mar-2021 14:32:41 UTC] PHP   6. trigger_error() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\update.php:143
+[31-Mar-2021 14:35:57 UTC] PHP Warning:  require_once(C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php): failed to open stream: No such file or directory in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:35:57 UTC] PHP Stack trace:
+[31-Mar-2021 14:35:57 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:35:57 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:35:57 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:35:57 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:35:57 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:35:57 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:35:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:35:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:35:57 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:35:57 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:35:57 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:35:57 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:35:57 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
+[31-Mar-2021 14:35:57 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:35:57 UTC] PHP Stack trace:
+[31-Mar-2021 14:35:57 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:35:57 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:35:57 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:35:57 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:35:57 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:35:57 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:35:57 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:35:57 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:35:57 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:35:57 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:35:57 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:35:57 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:35:57 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
+[31-Mar-2021 14:37:08 UTC] PHP Warning:  require_once(C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php): failed to open stream: No such file or directory in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:37:08 UTC] PHP Stack trace:
+[31-Mar-2021 14:37:08 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:37:08 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:37:08 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:37:08 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:37:08 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:37:08 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:37:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:37:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:37:08 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:37:08 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:37:08 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:37:08 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:37:08 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
+[31-Mar-2021 14:37:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:37:08 UTC] PHP Stack trace:
+[31-Mar-2021 14:37:08 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:0
+[31-Mar-2021 14:37:08 UTC] PHP   2. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\index.php:10
+[31-Mar-2021 14:37:08 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\admin.php:34
+[31-Mar-2021 14:37:08 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:37:08 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:37:08 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:37:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:37:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:37:08 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:37:08 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:37:08 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:37:08 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:37:08 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
+[31-Mar-2021 14:37:08 UTC] PHP Warning:  require_once(C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php): failed to open stream: No such file or directory in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:37:08 UTC] PHP Stack trace:
+[31-Mar-2021 14:37:08 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:0
+[31-Mar-2021 14:37:08 UTC] PHP   2. require() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:17
+[31-Mar-2021 14:37:08 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-blog-header.php:13
+[31-Mar-2021 14:37:08 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:37:08 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:37:08 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:37:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:37:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:37:08 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:37:08 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:37:08 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:37:08 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:37:08 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
+[31-Mar-2021 14:37:08 UTC] PHP Fatal error:  require_once(): Failed opening required 'C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify/lib/logs/class-analytify-log-handler-interface.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php on line 136
+[31-Mar-2021 14:37:08 UTC] PHP Stack trace:
+[31-Mar-2021 14:37:08 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:0
+[31-Mar-2021 14:37:08 UTC] PHP   2. require() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:17
+[31-Mar-2021 14:37:08 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-blog-header.php:13
+[31-Mar-2021 14:37:08 UTC] PHP   4. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-load.php:37
+[31-Mar-2021 14:37:08 UTC] PHP   5. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-config.php:77
+[31-Mar-2021 14:37:08 UTC] PHP   6. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:423
+[31-Mar-2021 14:37:08 UTC] PHP   7. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[31-Mar-2021 14:37:08 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[31-Mar-2021 14:37:08 UTC] PHP   9. analytify_free_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[31-Mar-2021 14:37:08 UTC] PHP  10. load_wp_analytify_free() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2105
+[31-Mar-2021 14:37:08 UTC] PHP  11. WP_Analytify::get_instance() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:2098
+[31-Mar-2021 14:37:08 UTC] PHP  12. WP_Analytify->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:67
+[31-Mar-2021 14:37:08 UTC] PHP  13. WP_Analytify->includes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\wp-analytify\wp-analytify.php:51
