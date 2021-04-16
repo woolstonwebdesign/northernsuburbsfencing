@@ -70,8 +70,9 @@ wp_reset_query();
 ?>
                     </div>
                     <div class="more-products">
-                        <a href="/product-category/<?php echo $category->slug; ?>/">
+                        <a class="text-center" href="/product-category/<?php echo $category->slug; ?>/">
                             <i class="las la-angle-right"></i>
+                            <div class="text-center">View More</div>
                         </a>
                     </div>
                 </div>

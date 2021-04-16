@@ -16,26 +16,26 @@ $taxonomy = get_queried_object();
 <?php
     if (have_posts()):
 ?>
-    <section <?php echo post_class(); ?>>
-        <span class="archive-breadcrumb">
+    <section <?php echo post_class(array('content-page')); ?>>
+        <div class="archive-breadcrumb">
             <i class="las la-arrow-circle-left"></i>
             <a href="/shop">Back to Shop</a>
-        </span>
+        </div>
         <div class="taxonomy-meta">
             <h2><?php echo $taxonomy->name; ?></h2>
             <p><?php echo $taxonomy->description; ?></p>
         </div>
-        <div class="taxonomy-terms">
+        <div class="taxonomy-terms category-products">
 <?php
         while(have_posts()): the_post();
             get_template_part('template-parts/content', 'product-thumb');
         endwhile;
 ?>
         </div>
-        <span class="archive-breadcrumb">
+        <div class="archive-breadcrumb">
             <i class="las la-arrow-circle-left"></i>
             <a href="/shop">Back to Shop</a>
-        </span>
+        </div>
     </section>
 <?php
     endif;

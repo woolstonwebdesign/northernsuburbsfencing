@@ -173,39 +173,50 @@ ul li.woocommerce-cart-icon {
                         justify-content: space-evenly;
 
                         > article {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-end;
 
                             .product-image {
                                 padding-right: 10px;
+                                flex-grow: 1;
+
+                                a {
+                                    display: block;
+                                }
 
                                 img {
                                     width: 100%;
+                                    max-width: 100%;
                                     height: auto;
                                 }
                             }
 
-                            .product-meta {
-                                padding: 10px 0;
-    
+                            .product-name, .product-price {
+                                flex-grow: 0;
+                                color: cv(neon-blue);
+
                                 @include media-breakpoint-down(sm) {
                                     text-align: center;
-                                }
-        
-                                .product-name, .product-price {
-                                    color: cv(neon-blue);
-                                }
+                                }    
+                            }
                 
-                                .product-name {
-                                    font-weight: 500;
-    
-                                    a {
-                                        color: cv(neon-blue);
-                                        text-decoration: underline;
-    
-                                        &:hover {
-                                            text-decoration: none;
-                                        }
+                            .product-name {
+                                padding: 10px 0 0;
+                                font-weight: 500;
+
+                                a {
+                                    color: cv(neon-blue);
+                                    text-decoration: underline;
+
+                                    &:hover {
+                                        text-decoration: none;
                                     }
                                 }
+                            }
+
+                            .product-price {
+                                font-size: 1.3em;
                             }
                         }
                     }
@@ -236,6 +247,28 @@ ul li.woocommerce-cart-icon {
     }
 }
 
+.archive.tax-product_cat {
+
+    > .content-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .archive-breadcrumb {
+        padding: 20px 0;
+    }
+
+    .category-products {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        > article {
+            flex: 0 0 30%;
+        }
+    }
+
+}
 .single-product {
 
     .woocommerce-breadcrumb, .product.type-product, .woocommerce-notices-wrapper {
