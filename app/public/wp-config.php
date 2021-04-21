@@ -62,7 +62,8 @@ define('NONCE_SALT',       'bBnrYWI1Ne4GfXu1gR1L12hIZnliz+iM61UoehdrLKY/S4LHOyQR
  * a unique prefix. Only numbers, letters, and underscores please!
  */
 $table_prefix = 'wp_';
-define('WC_MAX_LINKED_VARIATIONS', 1000);
+define('WC_MAX_LINKED_VARIATIONS', 100);
+define('WP_DEBUG', true);
 
 
 

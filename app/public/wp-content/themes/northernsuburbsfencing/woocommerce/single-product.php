@@ -15,6 +15,10 @@
  * @version     1.6.4
  */
 
+if ('POST' == $_SERVER['REQUEST_METHOD'] && !empty($_POST['action'])) {
+	wp_verify_nonce($_REQUEST['_variationnonce'], 'variation_enquiry_'.get_the_id());
+}
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }

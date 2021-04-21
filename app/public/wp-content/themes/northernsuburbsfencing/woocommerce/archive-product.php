@@ -38,13 +38,12 @@ foreach($categories as $category):
 ?>
     <section class="product-category">
         <article class="product-category-content">
-            <h4><a href="/product-category/<?php echo $category->slug; ?>"><?php echo $category->name; ?></a></h4>
-            <div class="category-meta">
-                <div class="category-description">
-                    <?php echo $category->description; ?>
-                </div>
-                <div class="category-products">
-                    <div class="category-product-list">
+            <div class="category-description">
+                <h2><a href="/product-category/<?php echo $category->slug; ?>"><?php echo $category->name; ?></a></h2>
+                <?php echo $category->description; ?>
+            </div>
+            <div class="category-products">
+                <div class="category-product-list">
 <?php
 $products = new WP_Query(array(
     'post_type' => 'product',
@@ -68,13 +67,12 @@ if ($products->have_posts()):
 endif;
 wp_reset_query();
 ?>
-                    </div>
-                    <div class="more-products">
-                        <a class="text-center" href="/product-category/<?php echo $category->slug; ?>/">
-                            <i class="las la-angle-right"></i>
-                            <div class="text-center">View More</div>
-                        </a>
-                    </div>
+                </div>
+                <div class="more-products">
+                    <a class="text-center" href="/product-category/<?php echo $category->slug; ?>/">
+                        <i class="las la-angle-right"></i>
+                        <div class="text-center">More</div>
+                    </a>
                 </div>
             </div>
         </article>
