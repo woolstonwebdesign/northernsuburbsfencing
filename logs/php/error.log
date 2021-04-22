@@ -5237,3 +5237,18 @@ Stack trace:
 [21-Apr-2021 11:33:53 UTC] PHP  14. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template.php:730
 [21-Apr-2021 11:33:53 UTC] PHP  15. _deprecated_file() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\theme-compat\sidebar.php:15
 [21-Apr-2021 11:33:53 UTC] PHP  16. trigger_error() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php:5061
+[22-Apr-2021 04:31:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php on line 1653
+[22-Apr-2021 04:31:58 UTC] PHP Stack trace:
+[22-Apr-2021 04:31:58 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[22-Apr-2021 04:31:58 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[22-Apr-2021 04:31:58 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[22-Apr-2021 04:31:58 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[22-Apr-2021 04:31:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[22-Apr-2021 04:31:58 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[22-Apr-2021 04:31:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[22-Apr-2021 04:31:58 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[22-Apr-2021 04:31:58 UTC] PHP   9. require_wp_db() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:124
+[22-Apr-2021 04:31:58 UTC] PHP  10. wpdb->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\load.php:545
+[22-Apr-2021 04:31:58 UTC] PHP  11. wpdb->db_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:632
+[22-Apr-2021 04:31:58 UTC] PHP  12. mysqli_real_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:1653
