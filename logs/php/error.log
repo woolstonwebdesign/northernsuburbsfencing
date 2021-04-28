@@ -5252,3 +5252,102 @@ Stack trace:
 [22-Apr-2021 04:31:58 UTC] PHP  10. wpdb->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\load.php:545
 [22-Apr-2021 04:31:58 UTC] PHP  11. wpdb->db_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:632
 [22-Apr-2021 04:31:58 UTC] PHP  12. mysqli_real_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:1653
+[26-Apr-2021 08:56:48 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php on line 1653
+[26-Apr-2021 08:56:48 UTC] PHP Stack trace:
+[26-Apr-2021 08:56:48 UTC] PHP   1. {main}() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:0
+[26-Apr-2021 08:56:48 UTC] PHP   2. include() C:\Program Files (x86)\Local\resources\extraResources\bin\wp-cli\wp-cli.phar:4
+[26-Apr-2021 08:56:48 UTC] PHP   3. include() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[26-Apr-2021 08:56:48 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[26-Apr-2021 08:56:48 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[26-Apr-2021 08:56:48 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[26-Apr-2021 08:56:48 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1158
+[26-Apr-2021 08:56:48 UTC] PHP   8. require() phar://C:/Program Files (x86)/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1237
+[26-Apr-2021 08:56:48 UTC] PHP   9. require_wp_db() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-settings.php:124
+[26-Apr-2021 08:56:48 UTC] PHP  10. wpdb->__construct() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\load.php:545
+[26-Apr-2021 08:56:48 UTC] PHP  11. wpdb->db_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:632
+[26-Apr-2021 08:56:48 UTC] PHP  12. mysqli_real_connect() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:1653
+[26-Apr-2021 10:22:34 UTC] PHP Warning:  exif_read_data(tubular-Aluminium-Sliding-Gate.jpg): Illegal IFD size: 2 + 0x0700*12 = 0x5402 &gt; 0x0062 in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php on line 800
+[26-Apr-2021 10:22:34 UTC] PHP Stack trace:
+[26-Apr-2021 10:22:34 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:0
+[26-Apr-2021 10:22:34 UTC] PHP   2. wp_ajax_upload_attachment() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:33
+[26-Apr-2021 10:22:34 UTC] PHP   3. media_handle_upload() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\ajax-actions.php:2549
+[26-Apr-2021 10:22:34 UTC] PHP   4. wp_read_image_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\media.php:380
+[26-Apr-2021 10:22:34 UTC] PHP   5. exif_read_data() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:800
+[26-Apr-2021 10:22:34 UTC] PHP Warning:  exif_read_data(tubular-Aluminium-Sliding-Gate.jpg): Illegal IFD size: 2 + 0x0700*12 = 0x5402 &gt; 0x0062 in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php on line 800
+[26-Apr-2021 10:22:34 UTC] PHP Stack trace:
+[26-Apr-2021 10:22:34 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:0
+[26-Apr-2021 10:22:34 UTC] PHP   2. wp_ajax_upload_attachment() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:33
+[26-Apr-2021 10:22:34 UTC] PHP   3. media_handle_upload() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\ajax-actions.php:2549
+[26-Apr-2021 10:22:34 UTC] PHP   4. wp_generate_attachment_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\media.php:421
+[26-Apr-2021 10:22:34 UTC] PHP   5. wp_create_image_subsizes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:484
+[26-Apr-2021 10:22:34 UTC] PHP   6. wp_read_image_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:243
+[26-Apr-2021 10:22:34 UTC] PHP   7. exif_read_data() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:800
+[26-Apr-2021 10:22:42 UTC] PHP Warning:  exif_read_data(Colourbond-Sliding-Gate.jpg): Illegal IFD size: 2 + 0x0700*12 = 0x5402 &gt; 0x0062 in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php on line 800
+[26-Apr-2021 10:22:42 UTC] PHP Stack trace:
+[26-Apr-2021 10:22:42 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:0
+[26-Apr-2021 10:22:42 UTC] PHP   2. wp_ajax_upload_attachment() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:33
+[26-Apr-2021 10:22:42 UTC] PHP   3. media_handle_upload() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\ajax-actions.php:2549
+[26-Apr-2021 10:22:42 UTC] PHP   4. wp_read_image_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\media.php:380
+[26-Apr-2021 10:22:42 UTC] PHP   5. exif_read_data() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:800
+[26-Apr-2021 10:22:42 UTC] PHP Warning:  exif_read_data(Colourbond-Sliding-Gate.jpg): Illegal IFD size: 2 + 0x0700*12 = 0x5402 &gt; 0x0062 in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php on line 800
+[26-Apr-2021 10:22:42 UTC] PHP Stack trace:
+[26-Apr-2021 10:22:42 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:0
+[26-Apr-2021 10:22:42 UTC] PHP   2. wp_ajax_upload_attachment() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\async-upload.php:33
+[26-Apr-2021 10:22:42 UTC] PHP   3. media_handle_upload() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\ajax-actions.php:2549
+[26-Apr-2021 10:22:42 UTC] PHP   4. wp_generate_attachment_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\media.php:421
+[26-Apr-2021 10:22:42 UTC] PHP   5. wp_create_image_subsizes() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:484
+[26-Apr-2021 10:22:42 UTC] PHP   6. wp_read_image_metadata() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:243
+[26-Apr-2021 10:22:42 UTC] PHP   7. exif_read_data() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\includes\image.php:800
+[27-Apr-2021 00:50:10 UTC] PHP Deprecated:  Theme without sidebar.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a sidebar.php template in your theme. in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php on line 5061
+[27-Apr-2021 00:50:10 UTC] PHP Stack trace:
+[27-Apr-2021 00:50:10 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:0
+[27-Apr-2021 00:50:10 UTC] PHP   2. require() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:17
+[27-Apr-2021 00:50:10 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-blog-header.php:19
+[27-Apr-2021 00:50:10 UTC] PHP   4. include() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template-loader.php:106
+[27-Apr-2021 00:50:10 UTC] PHP   5. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\themes\northernsuburbsfencing\woocommerce\single-product.php:60
+[27-Apr-2021 00:50:10 UTC] PHP   6. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[27-Apr-2021 00:50:10 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[27-Apr-2021 00:50:10 UTC] PHP   8. woocommerce_get_sidebar() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[27-Apr-2021 00:50:10 UTC] PHP   9. wc_get_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1033
+[27-Apr-2021 00:50:10 UTC] PHP  10. include() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[27-Apr-2021 00:50:10 UTC] PHP  11. get_sidebar() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\templates\global\sidebar.php:22
+[27-Apr-2021 00:50:10 UTC] PHP  12. locate_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\general-template.php:136
+[27-Apr-2021 00:50:10 UTC] PHP  13. load_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template.php:676
+[27-Apr-2021 00:50:10 UTC] PHP  14. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template.php:730
+[27-Apr-2021 00:50:10 UTC] PHP  15. _deprecated_file() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\theme-compat\sidebar.php:15
+[27-Apr-2021 00:50:10 UTC] PHP  16. trigger_error() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php:5061
+[27-Apr-2021 00:58:19 UTC] PHP Deprecated:  Theme without sidebar.php is <strong>deprecated</strong> since version 3.0.0 with no alternative available. Please include a sidebar.php template in your theme. in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php on line 5061
+[27-Apr-2021 00:58:19 UTC] PHP Stack trace:
+[27-Apr-2021 00:58:19 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:0
+[27-Apr-2021 00:58:19 UTC] PHP   2. require() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\index.php:17
+[27-Apr-2021 00:58:19 UTC] PHP   3. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-blog-header.php:19
+[27-Apr-2021 00:58:19 UTC] PHP   4. include() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template-loader.php:106
+[27-Apr-2021 00:58:19 UTC] PHP   5. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\themes\northernsuburbsfencing\woocommerce\single-product.php:60
+[27-Apr-2021 00:58:19 UTC] PHP   6. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[27-Apr-2021 00:58:19 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[27-Apr-2021 00:58:19 UTC] PHP   8. woocommerce_get_sidebar() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:292
+[27-Apr-2021 00:58:19 UTC] PHP   9. wc_get_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php:1033
+[27-Apr-2021 00:58:19 UTC] PHP  10. include() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php:345
+[27-Apr-2021 00:58:19 UTC] PHP  11. get_sidebar() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\templates\global\sidebar.php:22
+[27-Apr-2021 00:58:19 UTC] PHP  12. locate_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\general-template.php:136
+[27-Apr-2021 00:58:19 UTC] PHP  13. load_template() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template.php:676
+[27-Apr-2021 00:58:19 UTC] PHP  14. require_once() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\template.php:730
+[27-Apr-2021 00:58:19 UTC] PHP  15. _deprecated_file() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\theme-compat\sidebar.php:15
+[27-Apr-2021 00:58:19 UTC] PHP  16. trigger_error() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\functions.php:5061
+[27-Apr-2021 01:21:32 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php on line 2056
+[27-Apr-2021 01:21:32 UTC] PHP Stack trace:
+[27-Apr-2021 01:21:32 UTC] PHP   1. {main}() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\edit.php:0
+[27-Apr-2021 01:21:32 UTC] PHP   2. wp_delete_post() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-admin\edit.php:172
+[27-Apr-2021 01:21:32 UTC] PHP   3. do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\post.php:3177
+[27-Apr-2021 01:21:32 UTC] PHP   4. WP_Hook->do_action() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php:484
+[27-Apr-2021 01:21:32 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:316
+[27-Apr-2021 01:21:32 UTC] PHP   6. WC_Post_Data::delete_post() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php:294
+[27-Apr-2021 01:21:32 UTC] PHP   7. WC_Data_Store->delete_variations() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\class-wc-post-data.php:308
+[27-Apr-2021 01:21:32 UTC] PHP   8. WC_Data_Store->__call() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\class-wc-post-data.php:308
+[27-Apr-2021 01:21:32 UTC] PHP   9. WC_Product_Variable_Data_Store_CPT->delete_variations() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\class-wc-data-store.php:207
+[27-Apr-2021 01:21:32 UTC] PHP  10. wp_delete_post() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-variable-data-store-cpt.php:663
+[27-Apr-2021 01:21:32 UTC] PHP  11. delete_metadata_by_mid() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\post.php:3165
+[27-Apr-2021 01:21:32 UTC] PHP  12. wpdb->delete() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\meta.php:959
+[27-Apr-2021 01:21:32 UTC] PHP  13. wpdb->query() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:2416
+[27-Apr-2021 01:21:32 UTC] PHP  14. wpdb->_do_query() C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\wp-db.php:1945

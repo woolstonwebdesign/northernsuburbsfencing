@@ -50,7 +50,7 @@ function show_price_if_all_variations_same($available_variations, \WC_Product_Va
     }
     return $available_variations;
 }
-// add_filter('woocommerce_available_variation', 'show_price_if_all_variations_same', 10, 3);
+add_filter('woocommerce_available_variation', 'show_price_if_all_variations_same', 10, 3);
 
 function poa_request_content($variation) {
     $nonce = wp_create_nonce( 'variation_enquiry_'.$variation->ID );
@@ -70,8 +70,8 @@ function poa_request_content($variation) {
     $html .= '    <label for="enq-phone">Your Phone<span class="form-required">*</span></label>';
     $html .= '    <input type="text" class="form-control" required="required" id="enq-phone" name="enq-phone">';
     $html .= '</div>';
-    $html .= '<input type="text" value="' . $variation->name . '"/>';
-    $html .= '<input type="text" id="_variationnonce" name="_variationnonce" value="' .$nonce. '" />';
+    $html .= '<input type="hidden" value="' . $variation->name . '"/>';
+    $html .= '<input type="hidden" id="_variationnonce" name="_variationnonce" value="' .$nonce. '" />';
     $html .= '<button type="submit" class="md-btn btn-block">Send Us Your Information</button>';
     $html .= '</form>';
     $html .= '</div>';
@@ -116,3 +116,8 @@ function remove_add_to_cart_for_tag_id ($purchasable, $product) {
 
     return $purchasable;
 }
+
+function mb_remove_sidebar() {
+    return false;
+}
+add_filter( 'is_active_sidebar', 'mb_remove_sidebar', 10, 2 );

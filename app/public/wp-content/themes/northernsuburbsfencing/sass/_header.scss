@@ -1,5 +1,5 @@
 header.page-header {
-    padding: 10px 5vw;
+    padding: 10px 0;
     background-color: transparentize($color: cv(powder-blue, light), $amount: 0.8);
     
     /*  icons   */
@@ -48,7 +48,8 @@ header.page-header {
     font-size: 0.7em;
     text-transform: uppercase;
     height: 30px;
-
+    background-color: cv(neon-blue);
+    
     .banner {
         flex-grow: 1;
         text-align: center;

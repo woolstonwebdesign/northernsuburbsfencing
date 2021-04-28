@@ -134,7 +134,6 @@ ul li.woocommerce-cart-icon {
             flex-grow: 1;
             display: flex;
             align-items: center;
-            justify-content: space-evenly;
 
             @include media-breakpoint-down(sm) {
                 flex-direction: column;
@@ -162,7 +161,8 @@ ul li.woocommerce-cart-icon {
             .category-products {
                 display: flex;
                 align-items: center;
-
+                flex-grow: 1;
+                
                 @include media-breakpoint-down(sm) {
                     padding-top: 3vh;
                 }
@@ -572,6 +572,7 @@ ul li.woocommerce-cart-icon {
     align-items: center;
     justify-content: space-between;   
     background-color: cv(fuchsia, light);
+    color: rgba(255, 255, 255, 0.9);
 
     @include media-breakpoint-down(sm) {
         flex-direction: column;
@@ -581,7 +582,7 @@ ul li.woocommerce-cart-icon {
         top: 20px;
         left: 10px;
         font-size: 2em;
-        color: cv(fuchsia);
+        color: rgba(255, 255, 255, 0.9);
     }
 
     a {
@@ -608,7 +609,7 @@ ul li.woocommerce-cart-icon {
         thead {
 
             tr {
-                background-color: cv(neon-blue);
+                background-color: cv(fuchsia);
 
                 th {
                     color: #fff;

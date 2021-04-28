@@ -16,7 +16,7 @@
 </head>
 <body <?php body_class(); ?>>
 <header class="page-header">
-    <div class="top-notification-bar d-none">
+    <div class="top-notification-bar">
         <div class="banner">
             &nbsp;
         </div>
