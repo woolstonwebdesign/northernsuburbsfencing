@@ -63,7 +63,7 @@ define('NONCE_SALT',       'bBnrYWI1Ne4GfXu1gR1L12hIZnliz+iM61UoehdrLKY/S4LHOyQR
  */
 $table_prefix = 'wp_';
 define('WC_MAX_LINKED_VARIATIONS', 100);
-define('WP_DEBUG', true);
+define('WP_DEBUG', false);
 
 
 
