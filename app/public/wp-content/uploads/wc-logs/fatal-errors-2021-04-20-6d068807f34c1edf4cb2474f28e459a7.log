@@ -1,8 +1,0 @@
-2021-04-20T11:31:16+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_post_parent() in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\themes\northernsuburbsfencing\inc\woocommerce-support.php:113
-Stack trace:
-#0 C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\class-wp-hook.php(292): empty_and_zero_variation_prices_html(Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
-#1 C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
-#2 C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-variable.php(364): apply_filters('woocommerce_ava...', Array, Object(WC_Product_Variable), Object(WC_Product_Variation))
-#3 C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\plugins\woocommerce\includes\class-wc-product-variable.php(312): WC_Product_Variable->get_available_variation(Object(WC_Product_Variation))
-#4 C:\Users\steve\Lo in C:\Users\steve\Local Sites\northernsuburbsfencing\app\public\wp-content\themes\northernsuburbsfencing\inc\woocommerce-support.php on line 113
-

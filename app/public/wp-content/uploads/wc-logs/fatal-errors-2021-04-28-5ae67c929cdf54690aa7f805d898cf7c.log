@@ -1,0 +1,2 @@
+2021-04-28T13:40:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 1052672 bytes) in /home/woolsto1/nsf.woolston.com.au/wp-content/plugins/woocommerce/includes/wc-core-functions.php on line 1390
+
